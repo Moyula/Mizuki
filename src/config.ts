@@ -72,29 +72,15 @@ export const siteConfig: SiteConfig = {
 	},
 
 	banner: {
-		enable: false, // 是否启动Banner壁纸模式
+		enable: true, // 是否启动Banner壁纸模式
 
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
 				"/assets/desktop-banner/d1.webp",
-				"/assets/desktop-banner/d2.webp",
-				"/assets/desktop-banner/d3.webp",
-				"/assets/desktop-banner/d4.webp",
-				"/assets/desktop-banner/d5.webp",
-				"/assets/desktop-banner/d6.webp",
-				"/assets/desktop-banner/d7.webp",
-				"/assets/desktop-banner/d8.webp",
 			], // 桌面横幅图片
 			mobile: [
 				"/assets/mobile-banner/m1.webp",
-				"/assets/mobile-banner/m2.webp",
-				"/assets/mobile-banner/m3.webp",
-				"/assets/mobile-banner/m4.webp",
-				"/assets/mobile-banner/m5.webp",
-				"/assets/mobile-banner/m6.webp",
-				"/assets/mobile-banner/m7.webp",
-				"/assets/mobile-banner/m8.webp",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -123,13 +109,13 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "Beautiful Mizuki!", // 主页横幅主标题
+			title: "Welcome to My Digital Garden", // 主页横幅主标题
 
 			subtitle: [
-				"A Showcase Demo Site",
-				"Carousel Highlight: Innovation",
-				"Carousel Focus: User Experience",
-				"Carousel Spot: Core Advantages",
+				"记录生活，分享想法",
+				"用代码诉说故事",
+				"在这里遇见更好的自己",
+				"让创意绽放光彩",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
@@ -177,7 +163,7 @@ export const siteConfig: SiteConfig = {
 	showLastModified: true, // 控制“上次编辑”卡片显示的开关
 };
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
-	enable: true, // 启用全屏壁纸功能,非Banner模式下生效
+	enable: false, // 启用全屏壁纸功能,非Banner模式下生效
 	src: {
 		desktop: [
 			"/assets/desktop-banner/d1.webp",
