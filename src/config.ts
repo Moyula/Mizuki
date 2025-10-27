@@ -232,12 +232,6 @@ export const navBarConfig: NavBarConfig = {
 					external: true,
 					icon: "fa6-brands:bilibili",
 				},
-				{
-					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
-					external: true,
-					icon: "mdi:git",
-				},
 			],
 		},
 		{
@@ -279,6 +273,18 @@ export const navBarConfig: NavBarConfig = {
 					name: "Timeline",
 					url: "/timeline/",
 					icon: "material-symbols:timeline",
+				},
+								{
+					name: "openlist",
+					url: "http://47.122.76.78:5244/",
+					external: true,
+					icon: "fa6-solid:cloud",
+				},
+				{
+					name: "cloundreve",
+					url: "http://47.122.76.78:40033/",
+					external: true,
+					icon: "fa6-solid:cloud",
 				},
 			],
 		},
